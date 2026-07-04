@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Table Tags</title>
+    <style>
+        table{
+            font-family: calibri,sans-serif;
+            background-color: black;
+            color: white;
+            text-align: center;
+            width: 80%;
+        }
+        th,td{
+            background-color: orange;
+            padding:10px;
+        }
+        caption{
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption style="color:black">College-Timetable</caption>
+        <thead>
+            <tr>
+                <th>Day/Hour</th>
+                <th>09:30AM-10:30AM</th>
+                <th>10:30AM-11:30AM</th>
+                <th>11:30AM-12:30PM</th>
+                <th></th>
+                <th>02:00PM-03:00PM</th>
+                <th>03:00PM-04:00PM</th>
+                <th>04:00PM-05:00PM</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>MON</td>
+                <td>DEVOPS</td>
+                <td colspan="2">FSD LAB</td>
+                <td rowspan="5">LUNCH BREAK</td>
+                <td colspan="2">DAA</td>
+                <td>LIB</td>
+            </tr>
+            <tr>
+                <td>TUE</td>
+                <td colspan="3">CD LAB</td>
+                <td>RES</td>
+                <td colspan="2">DEVOPS</td>
+            </tr>
+            <tr>
+                <td>WED</td>
+                <td>DAA</td>
+                <td colspan="2">TK LAB</td>
+                <td>DW&DM</td>
+                <td colspan="2">CD</td>
+            </tr>
+            <tr>
+                <td>THU</td>
+                <td>FSD</td>
+                <td colspan="2">DW&DM</td>
+                <td colspan="2">RES</td>
+                <td>LIB</td>
+            </tr>
+            <tr>
+                <td>FRI</td>
+                <td colspan="3">DM LAB</td>
+                <td>CD</td>
+                <td colspan="2">LIB</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
